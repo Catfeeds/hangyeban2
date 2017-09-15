@@ -1,0 +1,33 @@
+[ 2017-09-14T17:58:17+08:00 ] ::1 /minibuxiugangjyw/index.php/Ht/News/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\minibuxiugangjyw\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `lr_news` [ RunTime:0.0774s ]
+SQL: SHOW COLUMNS FROM `lr_news_cat` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `lr_news_cat` WHERE ( 1=1 ) ORDER BY id desc  [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: cid F:\phpStudy\WWW\minibuxiugangjyw\App\Ht\Controller\NewsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: news_name F:\phpStudy\WWW\minibuxiugangjyw\App\Ht\Controller\NewsController.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_news` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0373s ]
+SQL: SELECT `name` FROM `lr_news_cat` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_news_cat` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_news_cat` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_news_cat` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_news_cat` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004779s ]
+

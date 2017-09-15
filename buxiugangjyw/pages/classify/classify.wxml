@@ -1,0 +1,15 @@
+<view class="tab-right"> 
+    <view >
+      <view class="boxx" wx:for="{{proData}}" bindtap="jieshao" data-id="{{item.id}}">
+            <view class="png">
+                    <image src="{{item.photo_x}}"></image>
+                  </view>
+                 <view class="fon">
+                        {{item.name}}
+                  </view>
+        <view class="riqi">发布：{{item.sname}}</view>
+
+             </view> 
+      <view class="clear mt10" bindtap="getMore">点击查看更多</view>        
+      </view> 
+</view> 
