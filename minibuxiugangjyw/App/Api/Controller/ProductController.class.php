@@ -108,7 +108,7 @@ class ProductController extends PublicController {
  			$where.=" AND cid=".intval($id);
  		}
 
- 		if($keyword) {
+ 		if($keyword != 'undefined' && $keyword) {
             $where.=' AND name LIKE "%'.$keyword.'%"';
         }
 
